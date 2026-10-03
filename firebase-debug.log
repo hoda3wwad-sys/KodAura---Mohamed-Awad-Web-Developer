@@ -1,0 +1,155 @@
+[debug] [2026-10-03T11:27:18.327Z] ----------------------------------------------------------------------
+[debug] [2026-10-03T11:27:18.339Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Dr Ahmed\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2026-10-03T11:27:18.340Z] CLI Version:   15.32.1
+[debug] [2026-10-03T11:27:18.340Z] Platform:      win32
+[debug] [2026-10-03T11:27:18.341Z] Node Version:  v24.16.0
+[debug] [2026-10-03T11:27:18.341Z] Detected Agent: unknown
+[debug] [2026-10-03T11:27:18.342Z] Time:          Sat Oct 03 2026 14:27:18 GMT+0300 (Eastern European Summer Time)
+[debug] [2026-10-03T11:27:18.342Z] ----------------------------------------------------------------------
+[debug] 
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Dr Ahmed
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[debug] [2026-10-03T11:29:20.855Z] ExitPromptError: User force closed the prompt with SIGINT
+    at Interface.sigint (C:\Users\Dr Ahmed\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\@inquirer\core\dist\commonjs\lib\create-prompt.js:101:37)
+    at Interface.emit (node:events:509:28)
+    at [_ttyWrite] [as _ttyWrite] (node:internal/readline/interface:1327:18)
+    at ReadStream.onkeypress (node:internal/readline/interface:284:20)
+    at ReadStream.emit (node:events:521:24)
+    at emitKeys (node:internal/readline/utils:371:14)
+    at emitKeys.next (<anonymous>)
+    at ReadStream.onData (node:internal/readline/emitKeypressEvents:64:36)
+    at ReadStream.emit (node:events:509:28)
+    at addChunk (node:internal/streams/readable:563:12)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2026-10-03T11:29:32.650Z] ----------------------------------------------------------------------
+[debug] [2026-10-03T11:29:32.658Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Dr Ahmed\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init hosting
+[debug] [2026-10-03T11:29:32.659Z] CLI Version:   15.32.1
+[debug] [2026-10-03T11:29:32.659Z] Platform:      win32
+[debug] [2026-10-03T11:29:32.659Z] Node Version:  v24.16.0
+[debug] [2026-10-03T11:29:32.659Z] Detected Agent: unknown
+[debug] [2026-10-03T11:29:32.660Z] Time:          Sat Oct 03 2026 14:29:32 GMT+0300 (Eastern European Summer Time)
+[debug] [2026-10-03T11:29:32.660Z] ----------------------------------------------------------------------
+[debug] 
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Dr Ahmed\Downloads\vs\awwadddd
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] 
+[debug] [2026-10-03T11:29:38.323Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-10-03T11:29:38.324Z] > authorizing via signed-in user (hoda3wwad@gmail.com)
+[debug] [2026-10-03T11:29:38.395Z] Checked if tokens are valid: false, expires at: 1787774873217
+[debug] [2026-10-03T11:29:38.396Z] Checked if tokens are valid: false, expires at: 1787774873217
+[debug] [2026-10-03T11:29:38.396Z] > refreshing access token with scopes: []
+[debug] [2026-10-03T11:29:38.402Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2026-10-03T11:29:38.402Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-10-03T11:29:38.851Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2026-10-03T11:29:38.852Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-10-03T11:29:38.903Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/portfolio-mo7med [none]
+[debug] [2026-10-03T11:29:39.530Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/portfolio-mo7med 200
+[debug] [2026-10-03T11:29:39.530Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/portfolio-mo7med {"projectId":"portfolio-mo7med","projectNumber":"296646791603","displayName":"portfolio","name":"projects/portfolio-mo7med","resources":{"hostingSite":"portfolio-mo7med"},"state":"ACTIVE","labels":{"firebase":"enabled"},"etag":"1_cabd83de-8c82-4cb0-a580-342cafb6d575"}
+[info] i  Using project portfolio-mo7med (portfolio) . 
+[info] 
+=== Hosting Setup
+[debug] [2026-10-03T11:29:39.578Z] Checked if tokens are valid: true, expires at: 1791030577853
+[debug] [2026-10-03T11:29:39.578Z] Checked if tokens are valid: true, expires at: 1791030577853
+[debug] [2026-10-03T11:29:39.579Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/portfolio-mo7med [none]
+[debug] [2026-10-03T11:29:39.943Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/portfolio-mo7med 200
+[debug] [2026-10-03T11:29:39.944Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/portfolio-mo7med {"projectId":"portfolio-mo7med","projectNumber":"296646791603","displayName":"portfolio","name":"projects/portfolio-mo7med","resources":{"hostingSite":"portfolio-mo7med"},"state":"ACTIVE","labels":{"firebase":"enabled"},"etag":"1_cabd83de-8c82-4cb0-a580-342cafb6d575"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2026-10-03T11:30:53.279Z] ExitPromptError: User force closed the prompt with SIGINT
+    at Interface.sigint (C:\Users\Dr Ahmed\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\@inquirer\core\dist\commonjs\lib\create-prompt.js:101:37)
+    at Interface.emit (node:events:509:28)
+    at [_ttyWrite] [as _ttyWrite] (node:internal/readline/interface:1327:18)
+    at ReadStream.onkeypress (node:internal/readline/interface:284:20)
+    at ReadStream.emit (node:events:521:24)
+    at emitKeys (node:internal/readline/utils:371:14)
+    at emitKeys.next (<anonymous>)
+    at ReadStream.onData (node:internal/readline/emitKeypressEvents:64:36)
+    at ReadStream.emit (node:events:509:28)
+    at addChunk (node:internal/streams/readable:563:12)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2026-10-03T11:31:28.634Z] ----------------------------------------------------------------------
+[debug] [2026-10-03T11:31:28.644Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Dr Ahmed\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init hosting
+[debug] [2026-10-03T11:31:28.644Z] CLI Version:   15.32.1
+[debug] [2026-10-03T11:31:28.645Z] Platform:      win32
+[debug] [2026-10-03T11:31:28.645Z] Node Version:  v24.16.0
+[debug] [2026-10-03T11:31:28.645Z] Detected Agent: unknown
+[debug] [2026-10-03T11:31:28.645Z] Time:          Sat Oct 03 2026 14:31:28 GMT+0300 (Eastern European Summer Time)
+[debug] [2026-10-03T11:31:28.646Z] ----------------------------------------------------------------------
+[debug] 
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Dr Ahmed\Downloads\vs\awwadddd
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] 
+[debug] [2026-10-03T11:31:35.582Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-10-03T11:31:35.582Z] > authorizing via signed-in user (hoda3wwad@gmail.com)
+[debug] [2026-10-03T11:31:35.630Z] Checked if tokens are valid: true, expires at: 1791030577853
+[debug] [2026-10-03T11:31:35.630Z] Checked if tokens are valid: true, expires at: 1791030577853
+[debug] [2026-10-03T11:31:35.633Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/portfolio-mo7med [none]
+[debug] [2026-10-03T11:31:36.435Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/portfolio-mo7med 200
+[debug] [2026-10-03T11:31:36.436Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/portfolio-mo7med {"projectId":"portfolio-mo7med","projectNumber":"296646791603","displayName":"portfolio","name":"projects/portfolio-mo7med","resources":{"hostingSite":"portfolio-mo7med"},"state":"ACTIVE","labels":{"firebase":"enabled"},"etag":"1_cabd83de-8c82-4cb0-a580-342cafb6d575"}
+[info] i  Using project portfolio-mo7med (portfolio) . 
+[info] 
+=== Hosting Setup
+[debug] [2026-10-03T11:31:36.497Z] Checked if tokens are valid: true, expires at: 1791030577853
+[debug] [2026-10-03T11:31:36.498Z] Checked if tokens are valid: true, expires at: 1791030577853
+[debug] [2026-10-03T11:31:36.499Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/portfolio-mo7med [none]
+[debug] [2026-10-03T11:31:36.779Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/portfolio-mo7med 200
+[debug] [2026-10-03T11:31:36.780Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/portfolio-mo7med {"projectId":"portfolio-mo7med","projectNumber":"296646791603","displayName":"portfolio","name":"projects/portfolio-mo7med","resources":{"hostingSite":"portfolio-mo7med"},"state":"ACTIVE","labels":{"firebase":"enabled"},"etag":"1_cabd83de-8c82-4cb0-a580-342cafb6d575"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[info] 
+[info] i  Didn't detect a .git folder. Assuming C:\Users\Dr Ahmed\Downloads\vs\awwadddd is the project root. 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=676564032&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
